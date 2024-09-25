@@ -55,7 +55,11 @@
         <link href="../lib/animate/animate.min.css" rel="stylesheet">
 
         <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/style.css" rel="stylesheet">
+
+        <link rel="preload" href="../css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript>
+            <link rel="stylesheet" href="../css/style.css">
+        </noscript>
 
         <script type="application/ld+json">
             {
